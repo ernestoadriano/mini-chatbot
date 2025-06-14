@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Olá", "Oi", "Bom dia", "Boa tarde"],
+      "responses": ["Olá! Como posso ajudar?", "Oi, tudo bem?", "Bem-vindo!"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Adeus", "Até logo"],
+      "responses": ["Até à próxima!", "Tchau!", "Volte sempre!"]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["Ajuda", "Preciso de ajuda", "Pode-me ajudar?"],
+      "responses": ["Claro! Como posso ajudar?", "Diz-me o que precisas."]
+    }
+  ]
+}

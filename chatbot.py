@@ -7,7 +7,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 
-# ======= Preparar dados =======
 with open('intents.json') as f:
     intents = json.load(f)
 
@@ -31,7 +30,6 @@ def obter_resposta(intencao):
         if intent['tag'] == intencao:
             return random.choice(intent['responses'])
 
-# ======= GUI com estilo WhatsApp =======
 janela = tk.Tk()
 janela.title("Chatbot Estilo WhatsApp")
 janela.geometry("480x600")
